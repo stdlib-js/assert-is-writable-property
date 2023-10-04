@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isWritableProperty = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-writable-property/tags). For example,
+
+```javascript
 isWritableProperty = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isWritableProperty = require( 'path/to/vendor/umd/assert-is-writable-propert
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -149,7 +154,7 @@ bool = isWritableProperty( obj, 'beep' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
