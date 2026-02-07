@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isWritableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@deno/mod.js';
+import isWritableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@v0.2.3-deno/mod.js';
 ```
 
 #### isWritableProperty( value, property )
@@ -122,7 +122,7 @@ bool = isWritableProperty( obj, 'beep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isWritableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@deno/mod.js';
+import isWritableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property@v0.2.3-deno/mod.js';
 
 var bool = isWritableProperty( [ 'a' ], 'length' );
 // returns true
